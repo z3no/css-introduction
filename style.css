@@ -7,20 +7,22 @@ body {
     background-image: linear-gradient(319deg, #118ab2 0%, #06d6a0 37%, #ffd166 100%);
 }
 
-h1, h3, h5 {
+h1, h2, h4 {
     font-family: "Courier New", sans-serif;
     font-style: italic;
     font-weight: bold;
     text-align: center;
+    color: darkred;
+    margin-top: 40px;
 }
 
 p {
-    font-style: italic;
+    font-style: normal;
     text-align: center;
 }
 
-p.story {
-    font-style: normal;
+.quote {
+    font-style: italic;
 }
 
 .circular--image {
@@ -46,7 +48,7 @@ table {
     height: 80px;
     color: darkorchid;
     text-align: center;
-    border: 3px solid darkslategrey;
+    border: 1px solid darkslategrey;
     border-collapse: collapse;
     table-layout: fixed;
 }
@@ -59,16 +61,26 @@ td.favcolor {
     background-color: deepskyblue;
 }
 
+td.border {
+    border: 1px dotted darkslategrey;
+}
+
 .hobbies {
     display: flex;
-    align-items: top;
+    align-items: normal;
     justify-content: center;
 }
 
 .prevNext {
     display: flex;
+    align-items: normal;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.checkbox {
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 40px;
 }
