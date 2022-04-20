@@ -84,3 +84,21 @@ td.border {
     align-items: center;
     justify-content: center;
 }
+
+a.next {
+    text-decoration: none;
+    color: orangered;
+}
+
+a:hover.next {
+    text-decoration: underline;
+}
+
+a.prev {
+    text-decoration: none;
+    color: deeppink;
+}
+
+a:hover.prev {
+    text-decoration: underline;
+}
