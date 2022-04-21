@@ -1,5 +1,4 @@
 body {
-    max-width: 960px;
     margin: auto;
     font-family: monospace;
     font-size: 14px;
@@ -71,34 +70,35 @@ td.border {
     justify-content: center;
 }
 
-.prevNext {
+.navbar {
     display: flex;
     align-items: normal;
     justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    margin: -4px 100px;
+}
+
+.navbar a:hover{
+    background-color: #118ab2;
+    color: black;
 }
 
 .checkbox {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-a.next {
-    text-decoration: none;
-    color: orangered;
-}
-
-a:hover.next {
-    text-decoration: underline;
-}
-
-a.prev {
-    text-decoration: none;
-    color: deeppink;
-}
-
-a:hover.prev {
-    text-decoration: underline;
 }
